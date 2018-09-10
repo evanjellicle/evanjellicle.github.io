@@ -1,0 +1,113 @@
+* { margin: 0; padding: 0; }
+
+body {
+	background-image: url("../images/art-art-materials-blank-416346.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 90vh;
+	transform: rotate(-1deg);
+}
+
+h1 {
+	font-weight: normal;
+	text-align: right;
+	font-family: Kosugi Maru, sans serif;
+	font-size: 25px;
+}
+
+h2 {
+	text-align: right;
+	font-size: 20px;
+	font-family: Courier, Sans Serif;
+	color: black;
+}
+
+a {
+	font-family: Archistico,Sans Serif;
+	color: black;
+	text-decoration: none;
+}
+
+p {
+	font-family: Old Standard TT,Sans Serif;
+	text-align: left;
+	color: black;
+	font-size: 20px;
+}
+
+ul {
+	text-align: left;
+	font-family: Courier,Sans Serif;
+	width: 30px;
+	margin: 0 auto;
+	font-size: 13px;
+	color: black;
+	position: bottom-right;
+}
+
+header {
+background-color: #FFED74;
+border: 1px black solid;
+padding: 20px;
+}
+
+nav {
+background-color: #E8C66A;
+border: 1px black solid;
+padding: 20px;
+}
+
+aside {
+background-color: #FFC675;
+border: 1px black solid;
+padding: 20px;
+}
+
+article {
+background-color: #E89C6C;
+border: 1px black solid;
+padding: 20px;
+}
+
+footer {
+background-color: #FF957E;
+border: 1px black solid;
+padding: 20px;
+}
+
+section {
+background-color: #FFE2B8;
+border: 1px black solid;
+padding: 20px;
+}
+
+.column{
+	display:auto;
+	column-gap: 20px;
+}
+
+.wrapper {
+	padding: 12% 16% 12% 14%;
+}
+
+#links{
+	column-count:2;
+	column-gap:20px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+}
+
+#slogan {
+	text-align: right;
+	font-size: 20px;
+	font-family: Archistico, Courier New;
+	color: black;
+	font-style: italic;
+}
+
+.listy{
+	position:static;
+	align-content: right;
+	text-align: right;
+}
