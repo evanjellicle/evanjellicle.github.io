@@ -52,38 +52,26 @@ img {
 }
 
 header {
-background-color: #FFED74;
-border: 1px black solid;
 padding: 20px;
 }
 
 nav {
-background-color: #E8C66A;
-border: 1px black solid;
 padding: 20px;
 }
 
 aside {
-background-color: #FFC675;
-border: 1px black solid;
 padding: 20px;
 }
 
 article {
-background-color: #E89C6C;
-border: 1px black solid;
 padding: 20px;
 }
 
 footer {
-background-color: #FF957E;
-border: 1px black solid;
 padding: 20px;
 }
 
 section {
-background-color: #FFE2B8;
-border: 1px black solid;
 padding: 20px;
 }
 
@@ -105,29 +93,22 @@ padding: 20px;
 }
 
 #two-column {
-	background-color:#FFB7CF;
-	border: 1px black solid;
 	padding: 20px;
 }
 
 #left {
-	background-color: #E582A2;
-	border: 1px black solid;
 	padding: 20px;
 	float: left;
 	width: 30%;
 }
 
 #lefttwo {
-	border: 1px black solid;
 	padding: 20px;
 	float: left;
 	width: 60%;
 }
 
 #left3 {
-	background-color: #E55B88;
-	border: 1px black solid;
 	padding: 20px;
 	float: left;
 	width: 40%;
@@ -135,8 +116,6 @@ padding: 20px;
 }
 
 #right {
-	background-color: #E55B88;
-	border: 1px black solid;
 	padding: 20px;
 	float: right;
 	width: 60%;
@@ -144,14 +123,11 @@ padding: 20px;
 }
 
 #righttwo {
-	border: 1px black solid;
 	float: right;
 	width: 10%;
 }
 
 #right3 {
-	background-color: #E55B88;
-	border: 1px black solid;
 	padding: 20px;
 	float:right;
 	width: 40%;
