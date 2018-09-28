@@ -1,0 +1,463 @@
+* { margin: 0; padding: 0; }
+
+body {
+	background-image: url("../images/Landscape.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	min-height: 100%;
+	transform: rotate(-1deg);
+	font-size: 25px;
+}
+
+h1 {
+	font-weight: normal;
+	text-align: right;
+	font-family: Old Standard TT, sans serif;
+	font-size: 1.25em;
+}
+
+h2 {
+	font-size: .9em;
+	font-family: Old Standard TT, Sans Serif;
+	color: black;
+	align-content:right;
+}
+
+a {
+	font-family: Archistico,Sans Serif;
+	color: black;
+	text-decoration: none;
+	font-size: 1.3em;
+}
+
+p {
+	font-family: Old Standard TT,Sans Serif;
+	color: black;
+	font-size: 1em;
+}
+
+/*ul {
+	font-family: Courier,Sans Serif;
+	width: 100%;
+	margin: 0 auto;
+	font-size: .8em;
+	color: black;
+}*/
+
+/*img {
+	max-width:250px;
+	max-height:125px;
+}*/
+
+header {
+padding: 2%;
+}
+
+/*nav {
+	padding: 0%;
+}
+*/
+aside {
+padding: 2% 1% 0% 2%;
+text-align: left;
+}
+
+/*article {
+padding: 0%;
+text-align: center;
+font-style: italic;
+}
+*/
+footer {
+	clear: both;
+	padding: 1%;
+	text-align: center;
+}
+
+/*section {
+padding: 5%;
+}*/
+
+.wrapper {
+	padding: 13% 14% 13% 13%;
+}
+
+#slogan {
+	text-align: right;
+	font-family: Old Standard TT, Courier New;
+	color: black;
+	font-style: italic;
+}
+
+#left {
+	padding: 0;
+	float: left;
+	width: 33%;
+	text-align: right;
+	align-content: center;
+	font-size: 2em;
+}
+
+#sling {
+	align-content: center;
+	text-align: center;
+	padding: 0;
+	float: left;
+	width: 33%;
+}
+
+#right {
+	padding: 0;
+	float: left;
+	width: 33%;
+	text-align:left;
+	font-size: 2em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content:" ";
+	clear: both;
+	height: 0;
+}
+
+@media (max-width: 1824px) and (min-width : 1500px) {
+	body{
+		font-size: 36px;
+	}
+.wrapper {
+	padding: 13% 18% 13% 13%;
+}
+
+#left {
+	font-size: 2em;
+}
+
+#right {
+	font-size: 2em;
+}
+}
+
+@media (max-width: 1500px) and (min-width: 1224px) {
+	body {
+		font-size: 26px;
+	}
+	.wrapper {
+		padding: 13% 18% 11% 13%;
+	}
+
+	#left {
+		font-size: 2.25em;
+		padding: 5% 0% 5% 0%;
+	}
+
+	#right {
+		font-size: 2.25em;
+		padding: 5% 0% 5% 0%;
+	}
+}
+
+@media (max-width: 1224px) and (min-width: 1100px) {
+	body {
+		font-size: 24px;
+	}
+	.wrapper {
+		padding: 13% 18% 13% 13%;
+	}
+
+	#left {
+		font-size: 2em;
+	}
+
+	#right {
+		font-size: 2em;
+	}
+}
+
+@media (min-width: 1824px) {
+	body{
+		font-size: 40px
+	}
+	.wrapper {
+		padding: 13% 18% 13% 13%;
+	}
+
+	#left {
+		font-size: 2em;
+	}
+
+	#right {
+		font-size: 2em;
+	}
+}
+
+@media (min-width: 975px) and (max-width: 1100px) {
+	body {
+		font-size: 22px;
+	}
+.wrapper {
+	padding: 13% 16% 13% 13%;
+}
+}
+
+@media (min-width: 900px) and (max-width: 975px) {
+	body {
+		font-size: 20px;
+	}
+.wrapper {
+	padding: 13% 16% 13% 13%;
+}
+	#left {
+		font-size: 2em;
+	}
+	#right {
+		font-size: 2em;	
+	}
+	#sling {
+		font-size: .75em;
+	}
+}
+
+@media (min-width: 800px) and (max-width: 900px) {
+	body {
+		font-size: 19px;
+	}
+.wrapper {
+	padding: 13% 16% 13% 13%;
+}
+	#left {
+		font-size: 2em;
+	}
+	#right {
+		font-size: 2em;	
+	}
+	#sling {
+		font-size: .75em;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 800px) {
+	body {
+		font-size: 17px;
+	}
+.wrapper {
+	padding: 13% 16% 13% 13%;
+}
+	#left {
+		font-size: 2.25em;
+		text-align: right;
+	}
+	#right {
+		font-size: 2.25em;
+		text-align: left;	
+	}
+	#sling {
+		font-size: .75em;
+	}
+}
+
+@media (min-width: 675px) and (max-width: 786px) {
+	body {
+		background-image: url("../images/Portrait.png");
+		font-size: 20px;
+		transform: none;
+	}
+.wrapper {
+	padding: 13% 16% 13% 13%;
+}
+	#left {
+		font-size: 2.75em;
+		text-align: center;
+		float: center;
+		clear: center;
+		padding: 5% 20% 5% 20%;
+		width: 50%;
+	}
+	#right {
+		font-size: 2.75em;
+		text-align: center;	
+		float: center;
+		clear:center;
+		padding: 5% 20% 5% 20%;
+		width: 50%;
+	}
+	#sling {
+		font-size: 1.5em;
+		float: center;
+		clear: center;
+		padding: 5% 20% 5% 20%;
+		width: 50%;
+	}
+}
+
+@media (max-width: 675px) and (min-width: 620px) {
+		body {
+		background-image: url("../images/Portrait.png");
+		font-size: 18px;
+		transform: none;
+	}
+.wrapper {
+	padding: 13% 16% 10% 13%;
+}
+	#left {
+		font-size: 2.75em;
+		text-align: center;
+		float: center;
+		clear: center;
+		padding: 5% 20% 5% 20%;
+		width: 50%;
+	}
+	#right {
+		font-size: 2.75em;
+		text-align: center;	
+		float: center;
+		clear:center;
+		padding: 5% 20% 5% 20%;
+		width: 50%;
+	}
+	#sling {
+		font-size: 1.5em;
+		float: center;
+		clear: center;
+		padding: 5% 20% 5% 20%;
+		width: 50%;
+	}
+}
+
+@media (max-width: 620px) and (min-width: 575px) {
+		body {
+		background-image: url("../images/Portrait.png");
+		font-size: 17px;
+		transform: none;
+	}
+.wrapper {
+	padding: 13% 16% 8% 13%;
+}
+	#left {
+		font-size: 2.75em;
+		text-align: center;
+		float: center;
+		clear: center;
+		padding: 5% 20% 5% 20%;
+		width: 50%;
+	}
+	#right {
+		font-size: 2.75em;
+		text-align: center;	
+		float: center;
+		clear:center;
+		padding: 5% 20% 5% 20%;
+		width: 50%;
+	}
+	#sling {
+		font-size: 1.5em;
+		float: center;
+		clear: center;
+		padding: 5% 20% 5% 20%;
+		width: 50%;
+	}
+}
+
+@media (max-width: 575px) and (min-width: 500px) {
+		body {
+		background-image: url("../images/Portrait.png");
+		font-size: 15px;
+		transform: none;
+	}
+.wrapper {
+	padding: 13% 16% 8% 13%;
+}
+	#left {
+		font-size: 2.75em;
+		text-align: center;
+		float: center;
+		clear: center;
+		padding: 5% 20% 5% 20%;
+		width: 50%;
+	}
+	#right {
+		font-size: 2.75em;
+		text-align: center;	
+		float: center;
+		clear:center;
+		padding: 5% 20% 5% 20%;
+		width: 50%;
+	}
+	#sling {
+		font-size: 1.5em;
+		float: center;
+		clear: center;
+		padding: 5% 20% 5% 20%;
+		width: 50%;
+	}
+}
+
+@media (max-width: 500px) and (min-width: 440px) {
+		body {
+		background-image: url("../images/Portrait.png");
+		font-size: 14px;
+		transform: none;
+	}
+.wrapper {
+	padding: 13% 16% 8% 13%;
+}
+	#left {
+		font-size: 2.25em;
+		text-align: center;
+		float: center;
+		clear: center;
+		padding: 4% 20% 4% 20%;
+		width: 50%;
+	}
+	#right {
+		font-size: 2.25em;
+		text-align: center;	
+		float: center;
+		clear:center;
+		padding: 4% 20% 4% 20%;
+		width: 50%;
+	}
+	#sling {
+		font-size: 1.5em;
+		float: center;
+		clear: center;
+		padding: 4% 20% 4% 20%;
+		width: 50%;
+	}
+}
+
+@media (max-width: 440px) {
+		body {
+		background-image: url("../images/Portrait.png");
+		font-size: 12px;
+		transform: none;
+	}
+.wrapper {
+	padding: 13% 16% 8% 13%;
+}
+	#left {
+		font-size: 2em;
+		text-align: center;
+		float: center;
+		clear: center;
+		padding: 4% 20% 4% 20%;
+		width: 50%;
+	}
+	#right {
+		font-size: 2em;
+		text-align: center;	
+		float: center;
+		clear:center;
+		padding: 4% 20% 4% 20%;
+		width: 50%;
+	}
+	#sling {
+		font-size: 1.5em;
+		float: center;
+		clear: center;
+		padding: 4% 20% 4% 20%;
+		width: 50%;
+	}
+}
